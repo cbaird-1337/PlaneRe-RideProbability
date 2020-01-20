@@ -25,6 +25,6 @@ tp = float(totalplanes)
 
 probability = (FY * FPY)/tp
 print()  # spacing
-print('The likelihood that you have ridden the same plane of your given time-frame is:',probability,'%')
+print('The likelihood that you have ridden the same plane for your given time-frame is:',"{:.2%}".format(probability));
 
 # Calculating probability of having ridden the same plane in the given time period
