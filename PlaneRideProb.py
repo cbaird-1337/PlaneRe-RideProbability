@@ -20,4 +20,11 @@ print()  # spacing
 FlightsPerYear = input("And roughly how many flights per year?:")
 FPY = float(FlightsPerYear)
 
+totalplanes = 17600
+tp = float(totalplanes)
+
+probability = (FY * FPY)/tp
+print()  # spacing
+print('The likelihood that you have ridden the same plane of your given time-frame is:',probability,'%')
+
 # Calculating probability of having ridden the same plane in the given time period
